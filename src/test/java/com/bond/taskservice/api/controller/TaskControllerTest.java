@@ -29,7 +29,7 @@ public class TaskControllerTest {
     void post_shouldCreateTasks_andReturn201_andRequestIdHeader() throws Exception {
         String payload = """
                 [
-                  {"taskName":"Write tests","priority":4},
+                  {"taskName":"Write tests","priority":3},
                   {"taskName":"Add logging","priority":2}
                 ]
                 """;
